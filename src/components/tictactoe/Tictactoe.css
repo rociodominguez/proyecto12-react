@@ -1,0 +1,44 @@
+.tic-tac-toe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--main-color);
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.restart-button:focus {
+  outline: none;
+}
+
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.status-winner {
+  color: var(--winner);
+  font-weight: bold;
+}
+
+.status-x {
+  color: var(--turnA);
+  font-weight: bold;
+}
+
+.status-o {
+  color: var(--turnB);
+  font-weight: bold;
+}

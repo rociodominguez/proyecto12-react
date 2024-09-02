@@ -1,0 +1,12 @@
+.word-display {
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .letter {
+    margin: 0 5px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  

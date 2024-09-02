@@ -1,0 +1,28 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+  }
+  
+  .keyboard-button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1rem;
+    color: var(--main-color);
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .keyboard-button:hover {
+    background-color: var(--winner);
+  }
+  
+  .keyboard-button:focus {
+    outline: none;
+  }
+  

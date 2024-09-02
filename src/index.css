@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --main-color: #1e1e1e;
+  --text-color: #dcdcdc;
+  --hover: #575757;
+  --winner: #28a745;
+  --loser: #c70101;
+  --turnA: #007bff;
+  --turnB: #f00b0b;
+}
+
+body {
+  overflow: hidden;
+}
+
