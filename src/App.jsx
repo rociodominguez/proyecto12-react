@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home/Home';
 import TicTacToe from './components/tictactoe/Tictactoe';
 import Hangman from './components/hangman/Hangman';
-import NavBar from './components/navbar/NavBar';
+import NavBar from './components/navbar/Navbar';
 import './App.css';
 
 const App = () => {
