@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Board from './Board';
 import { calculateWinner } from './TictactoeUtils';
-import './TicTacToe.css';
+import './Tictactoe.css';
 
 const TicTacToe = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
