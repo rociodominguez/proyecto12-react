@@ -2,7 +2,7 @@ import React, { useReducer, useEffect } from 'react';
 import WordDisplay from './Word';
 import Keyboard from './Keyboard';
 import { getRandomWord, hasPlayerWon, hasPlayerLost } from './HangmanUtils';
-import { hangmanReducer, initialState } from './hangmanReducer';
+import { hangmanReducer, initialState } from './HangmanReducer';
 import './Hangman.css';
 
 const Hangman = () => {
